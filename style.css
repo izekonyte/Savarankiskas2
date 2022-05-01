@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+h1 {
+    
+margin:  20px 10px;
+   
+}
+
+
+div {
+    display: block;
+    margin: auto;
+    margin-left: 10px;
+}
+
+input {
+    padding: 3px;   
+    height: 20px;
+    border-radius: 3px;
+    transition: 0.1s;
+}
+input:hover {
+   background: rgba(211, 211, 211, 0.418);
+}
+
+button {
+   
+     height: 25px;
+    padding: 5px;
+    width: 180px;
+    margin: 10px 0;
+    border-radius: 3px;
+    transition: 0.3s
+ 
+
+}
+button:hover {
+    cursor: pointer;
+    background: rgba(128, 128, 128, 0.377);
+    color: black;
+    box-shadow: 2px 2px 5px white;
+}
+
+table,
+th,
+td {
+    border: 3px solid rgba(224, 156, 28, 0.692);
+}
+table {
+    margin: 20px auto;
+    width: 550px;
+    border-collapse: collapse;
+    margin-left: 10px;
+}
+
+th {
+    text-align: center;
+    background: rgba(224, 156, 28, 0.692);
+    color:black;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+td{
+   
+    background: darkblue;
+    color: white;
+    border: 5px yellow;
+}
+.tablecolor {
+    background: rgba(196, 137, 28, 0.747);
+}
+
